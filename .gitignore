@@ -1,0 +1,25 @@
+#.gitignore
+
+# config
+params.sh
+local/*
+
+# Misc
+.envrc
+save
+*/*.swp
+dev/*
+notes.txt
+dev.txt
+admin.conf
+
+# terraform
+tf/tfplan.out
+tf/terraform.tfvars
+tf/.terraform
+tf/.terraform*
+tf/terraform.tfstate*
+
+# vendor/
+*/.DS_Store
+.DS*
